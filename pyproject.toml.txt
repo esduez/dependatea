@@ -1,13 +1,9 @@
 [project]
 name = "dependatea"
 version = "0.1.0"
-description = "tea.xyz entegre bağımlılık analiz aracı"
-dependencies = [
-    "requests",
-    "matplotlib",
-    "networkx"
-]
+dependencies = ["requests", "matplotlib", "networkx"]
 
-[build-system]
-requires = ["setuptools>=61.0.0"]
-build-backend = "setuptools.build_meta"
+[tool.tea]
+hybrid = true
+primary_language = "python"
+node_compat = true  # npm komutlarını Python'a yönlendirir
