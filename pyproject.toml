@@ -1,3 +1,0 @@
-[project]
-name = "dependatea"
-dependencies = ["requests", "matplotlib", "networkx"]
