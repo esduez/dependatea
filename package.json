@@ -7,7 +7,7 @@
     "rewards": "python src/cli.py rewards"
   },
   "dependencies": {
-    "axios": "^1.6.2"  // 
+    "axios": "^1.6.2"  
   },
   "tea": {
     "language": "hybrid",
